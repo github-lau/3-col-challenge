@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+#bkgnd {
+  padding: 8% 18%;
+}
+
+/* Cards */
+.col {
+  height: 450px;
+}
+
+.col img {
+  margin: 2rem auto auto 3rem;
+}
+
+.col h1 {
+  display: block;
+  clear: both;
+  margin: 2rem auto 2rem 3rem;
+  color: hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display';
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.col p {
+  display: block;
+  float: none;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.col-1 {
+  background-color: hsl(31, 77%, 52%);
+  float: left;
+  margin-left: 5%;
+  width: 30%;
+  border-radius: 5px 0 0 5px;
+}
+
+.col-2 {
+  background-color: hsl(184, 100%, 22%);
+  float: left;
+  width: 30%;
+  border-radius: 0;
+}
+
+.col-3 {
+  background-color: hsl(179, 100%, 13%);
+  float: right;
+  margin-right: 5%;
+  width: 30%;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Buttons */
+button {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  border-width: 0;
+  margin: 30% auto auto 3rem;
+  width: 45%;
+  height: 8%;
+}
+
+.col-1 button {
+  color: hsl(31, 77%, 52%);
+}
+
+.col-2 button {
+  color: hsl(184, 100%, 22%);
+}
+
+.col-3 button {
+  color: hsl(179, 100%, 13%);
+}
+
+/* Attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  clear: both;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
