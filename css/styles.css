@@ -11,6 +11,7 @@
 /* Cards */
 .col {
   height: 450px;
+  width: 30%;
 }
 
 .col img {
@@ -39,22 +40,19 @@
   background-color: hsl(31, 77%, 52%);
   float: left;
   margin-left: 5%;
-  width: 30%;
   border-radius: 5px 0 0 5px;
 }
 
 .col-2 {
   background-color: hsl(184, 100%, 22%);
   float: left;
-  width: 30%;
   border-radius: 0;
 }
 
 .col-3 {
   background-color: hsl(179, 100%, 13%);
-  float: right;
+  float: left;
   margin-right: 5%;
-  width: 30%;
   border-radius: 0 5px 5px 0;
 }
 
@@ -90,3 +88,53 @@ button {
 .attribution a {
    color: hsl(228, 45%, 44%);
  }
+
+@media (max-width: 1130px) {
+  .col-1 {
+    margin-left: 0;
+    width: 50%;
+    border-bottom-left-radius: 0;
+  }
+
+  .col-2 {
+    width: 50%;
+    border-top-right-radius: 5px;
+  }
+  .col-3 {
+    clear: both;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .col-3 button {
+    margin-top: 12%;
+    width: 25%;
+  }
+}
+
+@media (max-width: 675px) {
+  #bkgnd {
+    padding: 8%;
+  }
+
+  .col {
+    float: none;
+    width: 100%;
+    height: 350px;
+  }
+
+  .col button {
+    margin: 2rem 3rem;
+    width: 45%;
+  }
+
+  .col-1 {
+    margin-left: 0;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .col-3 {
+    margin-right: 0;
+    border-radius: 0 0 5px 5px;
+  }
+}
